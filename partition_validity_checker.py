@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Validate perfect-partition .txt files
 
-Usage: python check_partitions_lean.py <file.txt> <n> <D_n>
+Usage: python partition_validity_checker.py <file.txt> <n> <D_n>
 
 Example:
-n=6: python check_partitions_lean.py 82_partitions_6_RLS.txt 6 265
+n=6: python partition_validity_checker.py 82_partitions_6_RLS.txt 6 265
 """
 
 import sys
